@@ -1,0 +1,2 @@
+add_library(display_callbacks display_callbacks.cpp display_callbacks.h input_callbacks.cpp input_callbacks.h)
+include_directories(display_callbacks ${CMAKE_CURRENT_SOURCE_DIR})
